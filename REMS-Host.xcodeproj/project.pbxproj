@@ -22,6 +22,8 @@
 		6F044EC718BD94200032E69F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F044EA618BD941F0032E69F /* UIKit.framework */; };
 		6F044ECF18BD94200032E69F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F044ECD18BD94200032E69F /* InfoPlist.strings */; };
 		6F044ED118BD94200032E69F /* REMS_HostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F044ED018BD94200032E69F /* REMS_HostTests.m */; };
+		6FCBCFCB18BDA03900340BC4 /* Table-1-black-marble-texture-xvzmepvk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FCBCFC918BDA03900340BC4 /* Table-1-black-marble-texture-xvzmepvk.jpg */; };
+		6FCBCFCC18BDA03900340BC4 /* Table-2-granite header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FCBCFCA18BDA03900340BC4 /* Table-2-granite header.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		6F044ECC18BD94200032E69F /* REMS-HostTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "REMS-HostTests-Info.plist"; sourceTree = "<group>"; };
 		6F044ECE18BD94200032E69F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F044ED018BD94200032E69F /* REMS_HostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = REMS_HostTests.m; sourceTree = "<group>"; };
+		6FCBCFC918BDA03900340BC4 /* Table-1-black-marble-texture-xvzmepvk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Table-1-black-marble-texture-xvzmepvk.jpg"; sourceTree = "<group>"; };
+		6FCBCFCA18BDA03900340BC4 /* Table-2-granite header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Table-2-granite header.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 				6F044EBA18BD941F0032E69F /* CustomerViewController.h */,
 				6F044EBB18BD941F0032E69F /* CustomerViewController.m */,
 				6F044EBD18BD941F0032E69F /* Images.xcassets */,
+				6FCBCFC918BDA03900340BC4 /* Table-1-black-marble-texture-xvzmepvk.jpg */,
+				6FCBCFCA18BDA03900340BC4 /* Table-2-granite header.jpg */,
 				6F044EA918BD941F0032E69F /* Supporting Files */,
 			);
 			path = "REMS-Host";
@@ -232,6 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FCBCFCC18BDA03900340BC4 /* Table-2-granite header.jpg in Resources */,
+				6FCBCFCB18BDA03900340BC4 /* Table-1-black-marble-texture-xvzmepvk.jpg in Resources */,
 				6F044EB918BD941F0032E69F /* Main_iPad.storyboard in Resources */,
 				6F044EBE18BD941F0032E69F /* Images.xcassets in Resources */,
 				6F044EB618BD941F0032E69F /* Main_iPhone.storyboard in Resources */,
@@ -475,6 +483,7 @@
 				6F044ED618BD94200032E69F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F044ED718BD94200032E69F /* Build configuration list for PBXNativeTarget "REMS-HostTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +492,7 @@
 				6F044ED918BD94200032E69F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
